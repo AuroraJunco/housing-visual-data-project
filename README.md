@@ -6,11 +6,7 @@
 - El objetivo del proyecto es construir un **predictor de real estate** que, a partir de datos de Redfin (Texas), permita estimar:  
   - El **precio de salida** óptimo de una vivienda 
   - El **tiempo esperado en el mercado** en función de sus características
-
-
-
-
-
+\n
 
 ## Objetivos principales
 - Analizar datos del mercado inmobiliario en Texas
@@ -21,9 +17,7 @@
 - Desarrollar un **dashboard interactivo en Python (Dash/Plotly)** para facilitar la exploración y la interpretación de los resultados
 
 
-
-
-
+\n
 
 ## Plan inicial de trabajo
 - **Fase 1 – Descarga de datos**  
@@ -53,11 +47,7 @@
   - Redactar README con instrucciones y objetivos 
   - Preparar despliegue en la nube (Heroku, Render o similar)
 
-
-
-
-
-
+\n
 ## Tecnologías previstas
 - **Lenguaje**: Python (Google Colab como entorno principal)
 - **Librerías**: Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn, Plotly...
