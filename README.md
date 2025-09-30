@@ -7,7 +7,7 @@
   - El **precio de salida** óptimo de una vivienda 
   - El **tiempo esperado en el mercado** en función de sus características
 
----
+
 
 ## Objetivos principales
 - Analizar datos del mercado inmobiliario en Texas
@@ -17,7 +17,6 @@
   - Modelo 2 → Predicción de días en el mercado en función del precio
 - Desarrollar un **dashboard interactivo en Python (Dash/Plotly)** para facilitar la exploración y la interpretación de los resultados
 
----
 
 ## Plan inicial de trabajo
 - **Fase 1 – Descarga de datos**  
@@ -47,7 +46,7 @@
   - Redactar README con instrucciones y objetivos 
   - Preparar despliegue en la nube (Heroku, Render o similar)
 
----
+
 
 ## Tecnologías previstas
 - **Lenguaje**: Python (Google Colab como entorno principal)
