@@ -9,11 +9,10 @@
 <br><br> 
 ## Objetivos principales
 - Analizar datos del mercado inmobiliario en Texas
-- Crear visualizaciones interactivas que permitan entender cómo influyen distintas variables (ubicación, tamaño, habitaciones, baños, etc.)
 - Entrenar **dos modelos de machine learning**:  
-  - Modelo 1 → Predicción de precio de salida
-  - Modelo 2 → Predicción de días en el mercado en función del precio
-- Desarrollar un **dashboard interactivo en Python (Dash/Plotly)** para facilitar la exploración y la interpretación de los resultados
+  - Modelo 1: Predicción de precio de salida
+  - Modelo 2: Predicción de días en el mercado en función del precio
+- Desarrollar una **aplicación interactiva en Python** para poder utilizar el modelo desarrollado y en función de los parámetros seleccionados obtener una respuesta personalizada
 <br><br> 
 ## Plan inicial de trabajo
 - **Fase 1: Descarga de datos**  
