@@ -1,10 +1,10 @@
 # Predictor de Real Estate
 
 ## Descripción del problema
-- El mercado inmobiliario es complejo tanto para compradores como para vendedores
-- Listar una vivienda a un precio demasiado alto puede hacer que tarde meses en venderse; un precio demasiado bajo supone pérdidas para el propietario
-- El objetivo del proyecto es construir un **predictor de real estate** que, a partir de datos de Redfin (Texas), permita estimar:  
-  - El **precio de salida** óptimo de una vivienda 
+- El mercado inmobiliario es complejo para todo el mundo
+- Listar una vivienda a un precio demasiado alto puede hacer que tarde meses en venderse; un precio demasiado bajo implica pérdidas para el propietario
+- El objetivo del proyecto es construir un predictor de real estate que, a partir de datos de Redfin, permita estimar:  
+  - El **precio óptimo** de una vivienda 
   - El **tiempo esperado en el mercado** en función de sus características
 <br><br> 
 ## Objetivos principales
@@ -16,34 +16,25 @@
 - Desarrollar un **dashboard interactivo en Python (Dash/Plotly)** para facilitar la exploración y la interpretación de los resultados
 <br><br> 
 ## Plan inicial de trabajo
-- **Fase 1 – Descarga de datos**  
+- **Fase 1: Descarga de datos**  
   - Obtener datasets públicos de Redfin en formato CSV
 
-- **Fase 2 – Preparación de datos**  
+- **Fase 2: Preparación de datos y análisis**  
   - Combinar distintos ficheros CSV en un único dataset
-  - Limpiar valores nulos y estandarizar variables (fechas, precios, metros cuadrados, etc.)
-
-- **Fase 3 – Análisis exploratorio (EDA)**  
-  - Visualizar relaciones entre precio, tamaño, ubicación y días en mercado 
+  - Limpiar valores nulos y estandarizar variables (fechas, precios, tamaño...)
   - Identificar variables relevantes para los modelos
 
-- **Fase 4 – Creación de modelos predictivos**  
-  - Modelo 1: Predicción del **precio de salida** 
-  - Modelo 2: Predicción de los **días en el mercado en función del precio y otras variables**  
+- **Fase 4: Creación del modelos y evaluación**  
+  - Modelo 1: Predicción del precio más adecuado
+  - Modelo 2: Predicción de los días en el mercado en función del precio y otras variables  
+  - Evaluar los modelos con métricas adecuadas 
 
-- **Fase 5 – Validación y pruebas**  
-  - Evaluar los modelos con métricas adecuadas (ej. MAE, precisión en clasificación de tiempo)
-  - Ajustar hiperparámetros y comparar resultados  
-
-- **Fase 6 – Desarrollo del dashboard**  
-  - Implementar visualizaciones interactivas en Dash/Plotly
+- **Fase 6: Desarrollo de la aplicación**  
+  - Implementar visualizaciones interactivas
   - Integrar un formulario para introducir dirección/atributos de la vivienda y obtener predicciones
 
-- **Fase 7 – Documentación y entrega**  
-  - Redactar README con instrucciones y objetivos 
-  - Preparar despliegue en la nube (Heroku, Render o similar)
 <br><br> 
 ## Tecnologías previstas
-- **Lenguaje**: Python (Google Colab como entorno principal)
-- **Librerías**: Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn, Plotly...
+- **Lenguaje**: Python (Google Colab principalmente)
+- **Librerías**: Pandas, NumPy, XGBoost, Matplotlib, Plotly...
 - **Fuente de datos**: Redfin (datasets descargables en CSV)
